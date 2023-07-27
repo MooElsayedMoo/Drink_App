@@ -1,0 +1,95 @@
+.test{
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+.test h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .test h2 span {
+    color: gold;
+  }
+.test .row img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ;
+    display: block;
+    transition: 0.5s all;
+}
+.test .row img:hover{
+    transform: translateY(-10px);
+}
+.test .row h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.5s all;
+}
+.test .row p{
+    font-size: 17px;
+    color: gold;
+    margin-top: 20px;
+    text-align: center;
+}
+.test .row button{
+    color: black;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 25px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s all;
+}
+.test .row button:hover{
+    background-color: whitesmoke;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 400px) {
+    .test img{
+      margin-top: 20px;
+    }
+    .test .row p{
+      font-size: 15px;
+    }
+    .test button{
+        margin-bottom: 30px;
+    }
+  }
+
+
+  #mak{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+
+/*-----------------------start of public classes----------*/
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /*-----------------------end of public classes----------*/

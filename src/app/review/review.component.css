@@ -1,0 +1,189 @@
+.learn{
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+.learn .container h1{
+    text-align: center;
+    color: gainsboro;
+    font-size: 40px;
+    margin-top: 60px;
+}
+.learn .container h2{
+    text-align: center;
+    margin-top: -30px;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+.learn .Q{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px 20px;
+    background: repeating-radial-gradient(black, transparent 100px);
+    box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+}
+.learn .Q img{
+    width: 100%;
+    height: auto;
+    transition: 0.5s all;
+}
+.learn .Q img:hover{
+    opacity: 0.7;
+}
+.learn .Q h3{
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: brown;
+    padding: 5px;
+}
+.learn .Q h4{
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: green;
+}
+.learn .Q p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaaaaa;
+}
+.learn span{
+    color: gold;
+}
+.learn span i{
+    padding: 5px;
+}
+@media screen and (max-width: 400px) {
+  .learn .Q{
+    margin-bottom: 25px;
+  }
+}
+
+.Rev {
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+  .Rev h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .Rev h2 span {
+    color: gold;
+  }
+  .Rev .vv {
+    border: 1px solid grey;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s all;
+  }
+  .Rev .vv span.mm {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+  }
+  .Rev .vv span.mm i {
+    color: gold;
+    text-align: center;
+  }
+  .Rev .vv p {
+    color: gainsboro;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+
+  .Rev .vv img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .Rev .vv h6 {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+  }
+
+  .Rev .vv span.nn {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .Rev .vv span.nn i {
+    color: gold;
+    margin-bottom: 45px;
+    padding-left: 5px;
+    transition: 0.5s all;
+  }
+
+  .Rev .vv span.nn i:hover {
+    color: goldenrod;
+  }
+
+  .Rev .vv::before {
+    content: '';
+    position: absolute;
+    background: blue;
+    top: 95%;
+    left: 170px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s all;
+  }
+
+  .Rev .vv:hover::before {
+    width: 105%;
+    height: 510px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    border-radius: inherit;
+  }
+
+  @media screen and (max-width: 400px) {
+    .Rev .vv{
+      margin-bottom: 25px;
+    }
+    .Rev .vv p{
+      font-size: 13px;
+    }
+    .Rev .vv::before{
+      left: 157px;
+    }
+  }
+  @media screen and (min-width: 401px) and (max-width: 768px) {
+    .Rev .vv{
+      margin-bottom: 15px;
+    }
+    .Rev .vv::before{
+      left: 250px;
+    }
+  }
+
+  #mak{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }

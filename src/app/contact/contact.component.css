@@ -1,0 +1,135 @@
+/*--------------------start of method-------------------*/
+.method {
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  .method h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .method h2 span {
+    color: gold;
+  }
+  .method .ss {
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  .method .ss .par {
+    border: 1px solid gray;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .method .ss .par span {
+    color: #16df7e;
+    font-size: 36px;
+  }
+  .method .ss .par span i {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 155px;
+  }
+  .method .ss .par h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .method .ss .par p {
+    line-height: 24px;
+    font-size: 14px;
+    margin: 15px;
+    color: darkgreen;
+    text-align: center;
+  }
+  .method .ss .par::before {
+    content: '';
+    position: absolute;
+    background: #aff4e9;
+    right: -60px;
+    top: -40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: 0.5s all;
+    z-index: -1;
+  }
+  .method .ss .par:hover::before {
+    width: 150%;
+    height: 150px;
+  }
+  .method .ss .par::after {
+    content: '';
+    position: absolute;
+    background: #998ef1;
+    left: -60px;
+    top: 160px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: 0.5s all;
+    z-index: -1;
+  }
+  .method .ss .par:hover::after {
+    width: 150%;
+    height: 200px;
+    position: absolute;
+    right: -50px;
+    top: 110px;
+  }
+/*--------------------start of method-------------------*/
+label{
+  margin-left: 20%;
+  color: gold;
+  margin-bottom: 7px;
+}
+input{
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+input.ng-invalid{
+  border-left: 5px solid red;
+}
+input.ng-valid{
+  border-left: 5px solid green;
+}
+.error{
+  color: red;
+  margin-left: 20%;
+}
+button{
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+
+
+#mak{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*-----------------------start of public classes----------*/
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /*-----------------------end of public classes----------*/

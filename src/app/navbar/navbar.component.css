@@ -1,0 +1,41 @@
+.navbar{
+    background-color: black;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 999;
+}
+.navbar-toggler{
+  background-color: gold;
+}
+.navbar ul{
+    text-align: center;
+    margin-left: auto;
+}
+.navbar a{
+    margin-left: 20px;
+    color: white;
+    transition: 0.5s all;
+}
+.navbar a:hover{
+  color: gold;
+}
+.navbar img{
+    width: 70%;
+}
+
+  /*-----------------------start of public classes----------*/
+  .container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  /*-----------------------end of public classes----------*/

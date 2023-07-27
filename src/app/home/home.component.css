@@ -1,0 +1,566 @@
+/*--start of slide--*/
+.slide {
+    background-image: url(../../assets/pictures/home-img.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 70px;
+    margin-bottom: 70px;
+  }
+  .slide .text{
+    margin-top: 65px;
+  }
+  .slide h2 {
+    color: white;
+    font-size: 55px;
+    margin-bottom: 30px;
+  }
+  .slide p {
+    color: lightgrey;
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  .slide button {
+    color: white;
+    background-color: gold;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  .slide button:hover {
+    background-color: goldenrod;
+  }
+
+  @media screen and (max-width: 400px) {
+    .slide h2{
+      font-size: 30px;
+    }
+    .slide p{
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (min-width: 401px) and (max-width: 768px) {
+
+  }
+/*--end of slide--*/
+
+/*--start of about--*/
+  .about {
+    overflow: hidden;
+  }
+
+  .about h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .about .image {
+      margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .about .image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about .text {
+    margin-top: 30px;
+  }
+
+  .about .text h3 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .about .text p:first-of-type {
+    color: gray;
+  }
+
+  .about .text p:last-of-type {
+    color: gray;
+    margin-bottom: 20px;
+  }
+
+  .about .text button {
+    color: white;
+    background-color: gold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 7px;
+  }
+
+  .about .text button:hover {
+    background-color: goldenrod;
+  }
+  @media screen and (max-width: 400px) {
+    .about .text p:first-of-type {
+      font-size: 14px;
+    }
+
+    .about .text p:last-of-type {
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width: 401px) and (max-width: 768px) {
+
+  }
+/*--end of about--*/
+
+/*--start of menu--*/
+  .menu{
+      overflow: hidden;
+      margin-bottom: 20px;
+  }
+  .menu h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .menu h2 span {
+    color: gold;
+  }
+  .menu .win{
+      color: white;
+      border: 1px solid white;
+      margin-bottom: 25px;
+      transition: 0.5s all;
+  }
+  .menu .win:hover{
+      color: black;
+      background-color: white;
+  }
+  .menu .win:hover button{
+      color: black;
+  }
+  .menu .win img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .menu .win h5{
+    text-align: center;
+  }
+  .menu .win p{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .menu .win button{
+      color: white;
+    background-color: gold;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 30px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s all;
+  }
+  .menu .win button:hover{
+    background-color: goldenrod;
+  }
+
+/*--end of menu--*/
+
+/*--start of product--*/
+  .product {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .product h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .product h2 span {
+    color: gold;
+  }
+  .product .text {
+    border: 1px solid grey;
+    transition: 0.5s all;
+  }
+  .product .text span.one {
+    text-align: center;
+    display: block;
+    margin: 20px;
+  }
+  .product .text span.one i {
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-left: 5px;
+    transition: 0.5s all;
+  }
+
+  .product .text span.one i:hover {
+    background-color: goldenrod;
+  }
+  .product .text img {
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product .text:hover img {
+    transform: scale(1.1);
+  }
+  .product .text h5 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    transition: 0.5s all;
+  }
+  .product .text h5:hover {
+    color: dodgerblue;
+  }
+  .product .text span.two{
+    text-align: center;
+    display: block;
+  }
+  .product .text span.two i {
+    color: gold;
+    font-size: 25px;
+    padding-left: 5px;
+    transition: 0.5s all;
+  }
+
+  .product .text span.two i:hover {
+    color: goldenrod;
+  }
+  .product .text p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 400px) {
+    .product .text{
+      margin-bottom: 25px;
+    }
+  }
+  @media screen and (min-width: 401px) and (max-width: 768px) {
+    .product .text{
+      margin-bottom: 25px;
+    }
+  }
+    /*--start of product--*/
+
+  /*--start of Rev--*/
+  .Rev {
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+  .Rev h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .Rev h2 span {
+    color: gold;
+  }
+  .Rev .vv {
+    border: 1px solid grey;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s all;
+  }
+  .Rev .vv span.mm {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+  }
+  .Rev .vv span.mm i {
+    color: gold;
+    text-align: center;
+  }
+  .Rev .vv p {
+    color: gainsboro;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+
+  .Rev .vv img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .Rev .vv h6 {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+  }
+
+  .Rev .vv span.nn {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .Rev .vv span.nn i {
+    color: gold;
+    margin-bottom: 45px;
+    padding-left: 5px;
+    transition: 0.5s all;
+  }
+
+  .Rev .vv span.nn i:hover {
+    color: goldenrod;
+  }
+
+  .Rev .vv::before {
+    content: '';
+    position: absolute;
+    background: blue;
+    top: 95%;
+    left: 170px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s all;
+  }
+
+  .Rev .vv:hover::before {
+    width: 105%;
+    height: 510px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    border-radius: inherit;
+  }
+
+  @media screen and (max-width: 400px) {
+    .Rev .vv{
+      margin-bottom: 15px;
+    }
+    .Rev .vv p{
+      font-size: 13px;
+    }
+    .Rev .vv::before{
+      left: 149px;
+    }
+  }
+  @media screen and (min-width: 401px) and (max-width: 768px) {
+    .Rev .vv{
+      margin-bottom: 15px;
+    }
+    .Rev .vv::before{
+      left: 115px;
+    }
+  }
+  /*--end of Rev--*/
+
+   /*--start of contact--*/
+  .contact {
+    overflow: hidden;
+  }
+  .contact h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .contact h2 span {
+    color: gold;
+  }
+  .contact .map {
+    margin-top: 50px;
+    height: 100%;
+  }
+
+  .contact .map .ma {
+    width: 100%;
+    height: 80%;
+  }
+
+  .contact .map .ma iframe{
+    width: 100%;
+    height: 95%;
+  }
+
+  .contact .include {
+    margin-top: 50px;
+  }
+
+  .contact .include h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .contact .include label {
+    color: white;
+    display: block;
+  }
+
+  .contact .include input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .contact .include button {
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+
+  .contact .include button:hover {
+    border: none;
+    background-color: white;
+    color: black;
+  }
+  @media screen and (max-width: 400px) {
+    .contact h2{
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+  }
+ /*--end of contact--*/
+
+ /*--start of blog--*/
+  .blog {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .blog h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .blog h2 span {
+    color: gold;
+  }
+
+  .blog .LL {
+    border: 1px solid gray;
+    transition: 0.5s all;
+  }
+  .blog .LL:hover img{
+    transform: scale(0.9);
+  }
+  .blog .LL img {
+    width: 100%;
+    transition: 0.5s all;
+  }
+  .blog .LL h5 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .blog .LL h6 {
+    color: gold;
+    margin-left: 20px;
+    transition: 0.5s all;
+  }
+  .blog .LL h6:hover{
+    color: darkorange;
+  }
+  .blog .LL p {
+    color: lightgrey;
+    margin-left: 20px;
+  }
+  .blog .LL button {
+    color: white;
+    background-color: gold;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 30px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    transition: 0.5s all;
+  }
+
+  .blog .LL button:hover {
+    background-color: goldenrod;
+  }
+
+  @media screen and (max-width: 400px) {
+    .blog .LL{
+      margin-bottom: 25px;
+    }
+    .blog .LL p{
+      font-size: 15px;
+    }
+  }
+  @media screen and (min-width: 401px) and (max-width: 768px) {
+    .blog .LL{
+      margin-bottom: 15px;
+    }
+  }
+/*--end of blog--*/
+
+
+
+
+  #mak{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  /*-----------------------start of public classes----------*/
+  .container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /*-----------------------end of public classes----------*/

@@ -1,0 +1,142 @@
+.new{
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+.new h2 {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.new h2 span {
+  color: gold;
+}
+.new .win{
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 25px;
+    transition: 0.5s all;
+}
+.new .win:hover{
+    color: black;
+    background-color: white;
+}
+.new .win:hover button{
+    color: black;
+}
+.new .win img{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.new .win h5{
+  text-align: center;
+}
+.new .win p{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.new .win button{
+    color: white;
+  background-color: gold;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 30px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 0.5s all;
+}
+.new .win button:hover{
+  background-color: goldenrod;
+}
+
+.text{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text h2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .text h2 span {
+    color: gold;
+  }
+.text .container .lx{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: 0.5s all;
+}
+.text .container .lx:hover{
+background: darkgoldenrod;
+}
+.text .container .lx .image{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.text .container .lx img{
+    height: 70px;
+    margin: 20px;
+}
+.text .container .lx .wee{
+    width: 60%;
+    padding: 5px;
+}
+.text .container .lx .wee h3{
+    color: white;
+}
+.text .container .lx .wee p{
+    font-size: 15px;
+    color: gainsboro;
+}
+.text .container .lx .wee span{
+    color: gold;
+}
+.text .container .lx .wee span i{
+    margin-left: 5px;
+}
+
+#mak{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*-----------------------start of public classes----------*/
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /*-----------------------end of public classes----------*/
